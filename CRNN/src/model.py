@@ -7,8 +7,8 @@ maxHeight = cfg.maxHeight
 maxWidth = cfg.maxWidth
 charLen = cfg.charLen
 
-def ctcLoss(args):
-    y_pred, labels, input_length, label_length = args
+def ctcLoss(dummy):
+    y_pred, labels, input_length, label_length = dummy
     return K.ctc_batch_cost(labels, y_pred, input_length, label_length)
 
 def getModel(maxLen):
@@ -36,5 +36,5 @@ def getModel(maxLen):
     modelFront = Model(inp, x)
     outp = Lambda(ctcLoss, output_shape=(1,), name='CTCLoss')([x, labels, inpLen, labelLen])
     model = Model(inputs = [inp, labels, inpLen, labelLen], outputs= outp)
-    model.compile(loss={'CTCLoss': lambda y_true, y_pred: y_pred}, optimizer = 'adam')
+    model.compile('adam', loss={'CTCLoss': lambda y_true, y_pred: y_pred})
     return [modelFront, model]

@@ -1,7 +1,7 @@
 batch_size = 256
-epochs = 10
-trainDataPath = '../data/smalldata'
-testDataPath = '../data/smalldata'
+epochs = 1
+trainDataPath = '../data/sampledata'
+testDataPath = '../data/sampledata'
 trainingModelPath = '../model/model.h5'
 finalModelPath = '../model/finalmodel.h5'
 outputPath = '../output/output.csv'
