@@ -1,0 +1,11 @@
+,Image location,Ground truth,Predictions
+1,../data/smalldata/2330/1/100_Brownsville_9827.jpg,Brownsville,Brownsville
+2,../data/smalldata/2330/1/101_LOADERS_44929.jpg,LOADERS,LOADERS
+3,../data/smalldata/2330/1/102_Secretariats_69024.jpg,Secretariats,Secretariats
+4,../data/smalldata/2330/1/104_Subjective_75567.jpg,Subjective,Subjeatiuc
+5,../data/smalldata/2330/1/106_BOUILLON_8971.jpg,BOUILLON,Bs
+6,../data/smalldata/2330/1/107_proposals_60659.jpg,proposals,proposals
+7,../data/smalldata/2330/1/108_neodymium_51283.jpg,neodymium,neodymium
+8,../data/smalldata/2330/1/109_Locales_44991.jpg,Locales,Locales
+9,../data/smalldata/2330/1/10_GUIRY_34173.jpg,GUIRY,GUIRY
+10,../data/smalldata/2330/1/111_Isotropic_40975.jpg,Isotropic,Isotropic
