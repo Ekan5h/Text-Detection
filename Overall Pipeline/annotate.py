@@ -58,4 +58,3 @@ for box in bboxes:
 cv2.imshow('image', image_c)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
